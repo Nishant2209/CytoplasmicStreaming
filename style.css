@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar styling */
+nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    font-family: 'ubuntu', 'cursive';
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+nav.sticky{
+    background-color: black;
+    padding: 0px;
+}
+.navbar{
+    max-width: 1700px;
+    padding: 0px 80px;
+    margin: auto;
+}
+nav .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+nav div.left{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav .menu .menu-item a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+nav .menu .menu-item a:hover{
+    color: cyan;
+}
