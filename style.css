@@ -16,7 +16,7 @@ nav{
     background-color: black;
     position: fixed;
     width: 100%;
-    padding: 15px 0;
+    padding: 10px 0;
     font-family: 'ubuntu', 'cursive';
     transition: all 0.3s ease;
     z-index: 9999;
