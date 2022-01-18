@@ -50,9 +50,143 @@ nav .menu .menu-item a{
     font-size: 20px;
     font-weight: bold;
     margin-left: 25px;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
     text-decoration: none;
 }
 nav .menu .menu-item a:hover{
+
+    font-size: 25px;
+    transition: color 0.3s ease;
     color: cyan;
+}
+
+section{
+    padding: 100px 0;
+}
+
+/* about section styling */
+.about{
+    display: flex;
+    height: 100vh;
+    background-color: cyan ;
+    color: black;
+    min-height: 500px;
+    font-family: 'ubuntu', sans-serif;
+}
+.about .max-width{
+    width: 100%;
+    margin: auto 0 auto 40px;
+}
+.about .title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: 'ubuntu', sans-serif;
+}
+.about .about_content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.about .about_content img{
+    margin-bottom: 20px;
+    border: 8px double black;
+    border-radius: 50%;
+    padding: 4px;
+    width: 200px;
+    height: 200x;
+}
+.about .about_content .text{
+    border: 3px solid black;
+}
+.about .about_content .text_1{
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.about .about_content .text_2{
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.about .about_content .text_3{
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.about .about_content .text_4{
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+/* project section styling */
+.project{
+    display: flex;
+    height: 100vh;
+    background-color: black ;
+    color: cyan;
+    min-height: 500px;
+    font-family: 'ubuntu', sans-serif;
+}
+.project .max-width{
+    width: 100%;
+    margin: auto 40px auto 40px;
+}
+.project .title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: 'ubuntu', sans-serif;
+}
+.project .project_content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: justify;
+}
+
+/* contact section styling */
+footer{
+    font-family: 'poppins', sans-serif;
+    background: cyan;
+    padding: 20px 23px;
+    color: black;
+}
+footer .title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'ubuntu', sans-serif;
+}
+footer .contact_content{
+    font-weight: bold;
+}
+footer a{
+    color: cyan;
+    background-color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+footer a:hover{
+    background-color: transparent;
+    font-size: 18px;
+    color: black;
+    border: 2px solid black;
 }
