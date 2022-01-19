@@ -13,7 +13,7 @@ html{
 
 /* navbar styling */
 nav{
-    background-color: black;
+    background-color: #021C1E;
     position: fixed;
     width: 100%;
     padding: 10px 0;
@@ -22,7 +22,7 @@ nav{
     z-index: 9999;
 }
 nav.sticky{
-    background-color: black;
+    background-color: #021C1E;
     padding: 0px;
 }
 .navbar{
@@ -35,10 +35,14 @@ nav .navbar{
     align-items: center;
     justify-content: space-between  ;
 }
-nav div.left{
+nav .left{
     color: white;
     font-size: 45px;
     font-weight: bold;
+}
+nav .left .image{
+    border-radius: 50%;
+    width: 2rem;
 }
 nav ul li{
     display: inline-block;
@@ -57,7 +61,7 @@ nav .menu .menu-item a:hover{
 
     font-size: 25px;
     transition: color 0.3s ease;
-    color: cyan;
+    color: #6FB98F;
 }
 
 section{
@@ -68,8 +72,8 @@ section{
 .about{
     display: flex;
     height: 100vh;
-    background-color: cyan ;
-    color: black;
+    background-color: #6FB98F ;
+    color: #021C1E;
     min-height: 500px;
     font-family: 'ubuntu', sans-serif;
 }
@@ -94,37 +98,37 @@ section{
 }
 .about .about_content img{
     margin-bottom: 20px;
-    border: 8px double black;
+    border: 8px double #021C1E;
     border-radius: 50%;
     padding: 4px;
     width: 200px;
     height: 200x;
 }
 .about .about_content .text{
-    border: 3px solid black;
+    border: 3px solid #021C1E;
 }
 .about .about_content .text_1{
-    color: black;
+    color: #021C1E;
     font-size: 30px;
-    border: 2px solid black;
+    border: 2px solid #021C1E;
     padding: 5px;
 }
 .about .about_content .text_2{
-    color: black;
+    color: #021C1E;
     font-size: 30px;
-    border: 2px solid black;
+    border: 2px solid #021C1E;
     padding: 5px;
 }
 .about .about_content .text_3{
-    color: black;
+    color: #021C1E;
     font-size: 30px;
-    border: 2px solid black;
+    border: 2px solid #021C1E;
     padding: 5px;
 }
 .about .about_content .text_4{
-    color: black;
+    color: #021C1E;
     font-size: 30px;
-    border: 2px solid black;
+    border: 2px solid #021C1E;
     padding: 5px;
 }
 
@@ -132,8 +136,8 @@ section{
 .project{
     display: flex;
     height: 100vh;
-    background-color: black ;
-    color: cyan;
+    background-color: #021C1E ;
+    color: #6FB98F;
     min-height: 500px;
     font-family: 'ubuntu', sans-serif;
 }
@@ -159,9 +163,9 @@ section{
 /* contact section styling */
 footer{
     font-family: 'poppins', sans-serif;
-    background: cyan;
+    background: #6FB98F;
     padding: 20px 23px;
-    color: black;
+    color: #021C1E;
 }
 footer .title{
     text-align: center;
@@ -174,10 +178,10 @@ footer .contact_content{
     font-weight: bold;
 }
 footer a{
-    color: cyan;
-    background-color: black;
+    color: #6FB98F;
+    background-color: #021C1E;
     text-decoration: none;
-    border: 2px solid black;
+    border: 2px solid #021C1E;
     border-radius: 5px;
     padding: 7px;
     margin-left: 10px;
@@ -187,6 +191,6 @@ footer a{
 footer a:hover{
     background-color: transparent;
     font-size: 18px;
-    color: black;
-    border: 2px solid black;
+    color: #021C1E;
+    border: 2px solid #021C1E;
 }
